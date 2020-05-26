@@ -1,0 +1,119 @@
+.header{
+    overflow: hidden;
+    background-color: #000000;
+    padding: 20px 10px;
+}
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: rgb(189, 189, 189);
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: EmotionEngine;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    font-family: EmotionEngine;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #de142800;
+    color: white;
+    border: solid white 2px;
+    border-radius: 20px 5px
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: #4078b300;
+    color: white;
+    border: solid white 2px;
+    border-radius: 20px 5px;
+    margin-right: 10px;
+  }
+
+  .header-right {
+    float: right;
+  }
+
+.introLabel{
+    font-size: 96px;
+    color: #de1429;
+    font-family: Andromeda;
+    text-align: center;
+}
+
+.Body{
+    background-color: black;
+    flex-direction: column;
+}
+
+.eyeCatcher{
+
+}
+
+.styleBox {
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height: 250px;
+    border: solid #ffffff 3px;
+    text-align: center;
+}
+
+.resumeText{
+  font-family: EmotionEngine;
+  text-decoration: rgb(0, 0, 0);
+}
+
+.informationText {
+  font-family: emotionEngine;
+  color: rgb(107, 107, 107);
+  font-size: xx-large;
+}
+
+.infoBox{
+  background-color:rgb(0, 0, 0);
+  width: 100%;
+  height: 250px;
+  border: solid #ffffff 3px;
+}
+
+#theBox{
+    border-radius: 25px 10px;
+    width:800px;
+    height:100%;
+    margin:0 auto;
+    border:4px solid #ff0000;
+    background-position: right;
+    background-color: rgb(255, 255, 255);
+    padding-left: 15px;
+}
+
+* {
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .7s;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    -moz-transition-property: all;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    }
+  
+@font-face {
+  font-family: Andromeda;
+  src: url("Andromeda-eR2n.ttf");
+}
+
+@font-face {
+  font-family: EmotionEngine;
+  src: url("EmotionEngine-8ynA.ttf");
+}
+
+
